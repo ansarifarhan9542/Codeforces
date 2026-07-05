@@ -8,8 +8,8 @@ int main(){
   while(t--){
     int n;
     cin>>n;
-    if(n%3==0) cout<<"No"<<endl;
-    else cout<<"Yes"<<endl;
+    if(n%3==0) cout<<"Second"<<endl;
+    else cout<<"First"<<endl;
   }
   return 0;
 }
