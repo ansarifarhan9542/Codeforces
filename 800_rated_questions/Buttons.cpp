@@ -8,8 +8,8 @@ int main(){
   while(t--){
     int a,b,c;
     cin>>a>>b>>c;
-    if(a>b || (a==b && c%2==1)) cout<<"first"<<endl;
-    else if(b>a || (a==b && c%2==0)) cout<<"second"<<endl;
+    if(a>b || (a==b && c%2==1)) cout<<"First"<<endl;
+    else if(b>a || (a==b && c%2==0)) cout<<"Second"<<endl;
   }
   return 0;
 }
